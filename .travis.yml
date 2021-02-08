@@ -16,7 +16,7 @@
 
 # https://docs.travis-ci.com/user/reference/overview/
 # trusty - 7.5GB memory and 2 cores
-dist: bionic
+dist: xenial
 
 # travis performs a shallow clone by default, in case of any issues
 # that requires full git history, enable this
@@ -24,7 +24,7 @@ dist: bionic
 
 language: java
 jdk:
-  - openjdk8
+  - openjdk11
   
 arch:
   - amd64
